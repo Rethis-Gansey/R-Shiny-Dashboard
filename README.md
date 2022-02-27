@@ -20,5 +20,5 @@ These data are regularly updated.
 ## Design of the application
 In the source code of the realized application, the data are directly loaded from the above mentioned repository, which allows an automatic update without any external manipulation. A filter was used to extract only data from Benin and some of its neighboring countries. Details on the codes used are available in the script used for the design.
 ## Deployment
-The application has been deployed on the Shinyapps.io server and can be viewed via this link: 
+The application has been deployed on the Shinyapps.io server and can be viewed via this link: https://rethisgansey.shinyapps.io/R-Shiny-Dashboard-main/
 
