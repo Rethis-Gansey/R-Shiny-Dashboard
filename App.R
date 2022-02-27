@@ -1,7 +1,4 @@
-#Definition of the working directory. 
-#Here, the files we will need are stored in a Google Drive folder that can be accessed through the following link
-directory <- "https://drive.google.com/drive/folders/1ofUunPjkaELDXc3uaJ59oF8H5Lb9DNak?usp=sharing"
-#setwd(directory)
+
 
 #Encodoptions(encoding = "UTF-8")
 
