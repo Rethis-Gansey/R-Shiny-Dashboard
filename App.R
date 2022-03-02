@@ -49,8 +49,8 @@ base_coviz=tablec2[,-1]
 #We download the database of daily cases for each country
 base_coviz_downl = read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/web-data/data/cases_time.csv")
 
-#We create a variable that contains the date of the last update of the data
-final_date = base_coviz_downl$Report_Date_String[length(base_coviz_downl$Report_Date_String)]
+#We create a variable that contains the date of the last update of the data in case of Benin
+final_date = base_coviz$Last_Update[base_coviz$Country_Region=="Benin"]
 
 #We load the data files to build the map and merge them with the existing data
 world_spdf <- readOGR("TM_WORLD_BORDERS_SIMPL-0.3.shp")
